@@ -1,0 +1,32 @@
+    [
+        {
+            "fullName": "Aditya Kumar",
+            "carnumber": "0002",
+            "carname": "Toyota Etios",
+            "Booked": "2020-05-08",
+            "ReturningDate": "2020-05-10",
+            "status": false,
+            "vehiclenumber": "PB23BG5280",
+            "imgpath": "car2.jpg"
+        },
+        {
+            "fullName": "Rohit Singh",
+            "carnumber": "00010",
+            "carname": "Hyundai Santro",
+            "Booked": "2020-05-07",
+            "ReturningDate": "2020-05-08",
+            "status": false,
+            "vehiclenumber": "PB22XS1283",
+            "imgpath": "car10.jpg"
+        },
+        {
+            "fullName": "Smriti Jain",
+            "carnumber": "00011",
+            "carname": "Luxury Sedan",
+            "Booked": "2020-05-06",
+            "ReturningDate": "2020-05-09",
+            "status": false,
+            "vehiclenumber": "JK21ZD8123",
+            "imgpath": "car11.jpg"
+        }
+    ]

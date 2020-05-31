@@ -1,0 +1,39 @@
+.navbar-brand{
+    font-size: 30px!important;
+    font-weight: 600;
+}
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+ul.contact {
+    list-style: none;
+  }
+li  a{
+    color: black;
+    font-size: 40px;
+}
+li a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+.mydiv {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 300px;
+    margin-top: -7em;
+    margin-left: -18em;
+}
+.loadcenter{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 300px;
+    margin-left: -18em;
+
+}
