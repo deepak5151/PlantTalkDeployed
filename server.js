@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
+const path = require("path");
 
 require('dotenv').config();
 
@@ -20,6 +21,8 @@ connection.once('open', () => {
     console.log('MongoDB connected Successfully');
 });
 
+
+
 const bookingsRouter = require('./routes/bookings');
 const CarDetailsRouter = require('./routes/CarDetails');
 
@@ -29,6 +32,7 @@ app.use('/details', CarDetailsRouter);
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'));
 }
+app.use(express.static(path.join(__dirname, "client/build")));
 app.use(express.static("client/build"));
 app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
